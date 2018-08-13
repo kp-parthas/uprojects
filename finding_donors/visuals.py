@@ -58,7 +58,7 @@ def evaluate(results, accuracy, f1):
       - accuracy: The score for the naive predictor
       - f1: The score for the naive predictor
     """
-  
+
     # Create figure
     fig, ax = pl.subplots(2, 3, figsize = (11,7))
 
@@ -115,7 +115,7 @@ def evaluate(results, accuracy, f1):
     
     # Aesthetics
     pl.suptitle("Performance Metrics for Three Supervised Learning Models", fontsize = 16, y = 1.10)
-    pl.tight_layout()
+    #pl.tight_layout()
     pl.show()
     
 
